@@ -1,4 +1,4 @@
-[
+export default [
     {
         "question": "While passing a large truck you should?",
         "answer": "Make back when you see the headlights of truck.",

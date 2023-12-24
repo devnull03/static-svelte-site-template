@@ -1,4 +1,4 @@
-[
+ export default [
     {
         "question": "(H.O.V ) Heavy occupancy vehicle lane can be used by?",
         "answer": "Buses, cars, motorcyclist and cyclist",

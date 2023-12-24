@@ -8,7 +8,7 @@
         "class1",
         "class5",
         "air brake",
-        "class 1(semi-trailer truck)",
+        "class 1 (semi-trailer truck)",
     ];
 
     let selectedPage = pages[0];

@@ -1,4 +1,4 @@
-[
+export default [
     {
         "question": "In truck & trailer combination you are going on highway which is the best view?",
         "answer": "Main mirror.",

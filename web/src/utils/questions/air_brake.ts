@@ -1,4 +1,4 @@
-[
+export default [
     {
         "question": "Why is alcohol add on in some air brake system?",
         "answer": "To help the system from freezing in cold weather.\n",
