@@ -1,9 +1,9 @@
-<h1 class="text-3xl font-bold flex items-center justify-center h-full">
-    Content here
-</h1>
+<script lang="ts">
+    import Table from "../lib/table.svelte";
 
-<style lang="postcss">
-    :global(html) {
-        background-color: theme(colors.gray.100);
-    }
-</style>
+</script>
+<div class="flex items-center justify-center pt-8 md:flex-row lg:flex-row sm:flex-col"> 
+        <Table slug="learn" heading="Learn Test"/>
+        <Table slug="practice" heading="Practise Test"/>
+      </div>
+      

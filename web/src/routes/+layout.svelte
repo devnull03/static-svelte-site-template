@@ -12,13 +12,7 @@
 <div class="h-screen flex flex-col justify-between">
     <Header />
     <main class="h-full mt-16">
-      <div class="flex items-center justify-center pt-8 md:flex-row lg:flex-row sm:flex-col"> 
-        <Table heading="Learn Test"/>
-        <Table heading="Practise Test"/>
-      </div>
-        
+        <slot />
     </main>
     <Footer />
 </div>
-<slot />
-
