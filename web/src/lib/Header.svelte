@@ -5,37 +5,38 @@
       href: "/",
     },
     {
-      name: "About",
+      name: "My test",
       href: "/about",
     },
     {
-      name: "Contact",
+      name: "Logout",
       href: "/contact",
     },
+    
   ];
 
 </script>
 
 <nav class="">
   <div
-    class="top-0 bg-gray-300 fixed h-16 w-full z-50 flex flex-row justify-between px-[15%]"
+    class="top-0 bg-sky-500 h-16 w-full flex flex-row justify-between items-center fixed z-50 "
   >
     <!-- top fixed -->
-    <div class="flex flex-row justify-evenly gap-8 items-center">
+    <div class="flex text-white font-bold items-center ps-4 "> the driving school</div>
+
+    <div class="flex flex-row justify-evenly gap-8 items-center pe-4">
       <!-- nav links -->
+      
       {#each navLinks as link}
         <a
           href={link.href}
-          class="text-xs font-semibold uppercase text-white hover:text-opacity-80 transition-colors duration-300 ease-in-out"
+          class="text-xs uppercase text-white hover:text-opacity-80 transition-colors duration-300 ease-in-out"
         >
           {link.name}
         </a>
       {/each}
     </div>
 
-    <div class="flex flex-row items-center gap-1.5">
-      <!-- nav socials -->
-
-    </div>
+    
   </div>
 </nav>

@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  svelte-routing:
+    specifier: ^2.10.0
+    version: 2.10.0
+
 devDependencies:
   '@sveltejs/adapter-auto':
     specifier: ^3.0.0
@@ -1374,6 +1379,10 @@ packages:
       svelte: 4.2.8
       typescript: 5.3.3
     dev: true
+
+  /svelte-routing@2.10.0:
+    resolution: {integrity: sha512-GM30MYs0WkTpWE6VaZV7Bl6bZmWD2vzEK4zrMQej131rpItdnqxfXTqSJFAT1I80C77XZKkjWuJeQKvBnQ2KXA==}
+    dev: false
 
   /svelte@4.2.8:
     resolution: {integrity: sha512-hU6dh1MPl8gh6klQZwK/n73GiAHiR95IkFsesLPbMeEZi36ydaXL/ZAb4g9sayT0MXzpxyZjR28yderJHxcmYA==}
