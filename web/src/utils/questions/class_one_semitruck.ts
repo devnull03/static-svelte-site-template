@@ -1,261 +1,584 @@
 [
     {
-        "question": "What is the main function of the push rod?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/100-20220929124133.jpg",
-        "answer": "Check the brake adjustment."
+        "question": "When driving a large commercial vehicle on the highway, you must leave how much space between your vehicle and other large commercial vehicles?",
+        "answer": "60 metres.",
+        "options": [
+            "40 metres. \n                             ",
+            "50 metres.                            ",
+            "60 metres.",
+            "70 metres.                             "
+        ]
     },
     {
-        "question": "Which of the following is not part of the drive train?",
-        "answer": "Kingpin"
+        "question": "This warning sign means ?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/5-20220929112212.jpg",
+        "answer": "Watch for falling rocks ahead.",
+        "options": [
+            "Slippery road ahead. \n                             ",
+            "Watch for obstruction ahead.                            ",
+            "Watch for falling rocks ahead."
+        ]
     },
     {
-        "question": "In a tractor trailer combination vehicle on a full brake application with maximum air pressure, air loss should not exceed?",
-        "answer": "4 P.S.I"
+        "question": "An engine brake retarder is more efficient at?",
+        "answer": "Higher engine R.P.M and lower vehicle speed.\n",
+        "options": [
+            "Higher engine R.P.M and lower vehicle speed.\n",
+            "Lower engine R.P.M and higher vehicle speed.                            ",
+            "Higher engine R.P.M and higher vehicle speed.                            "
+        ]
     },
     {
-        "question": "Which dashboard gauge should be used to help you decide when to change gears?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/semi-truck-gauges-components_collage-make_0-20221005132325.jpg",
-        "answer": "The tachometer."
+        "question": "If there is wildlife on the road, you should?",
+        "answer": "Slow down leave a margin and pass by side.",
+        "options": [
+            "Slow down and stop. \n                             ",
+            "Slow down and honk the horn.                            ",
+            "Slow down leave a margin and pass by side.",
+            "Slow a vehicle and sleep.                             "
+        ]
     },
     {
-        "question": "What is the driver stopping time?",
-        "answer": "Reaction time + Brake lag time + braking time."
+        "question": "Cuts on tire should not be more than?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/3-20220928152836.jpg",
+        "answer": "2.5 centimeters.\n",
+        "options": [
+            "2.5 centimeters.\n",
+            "3.5 centimeters.                            ",
+            "4.5 centimeters.                            "
+        ]
     },
     {
-        "question": "On duty time does not include?",
-        "answer": "Time spent riding on ferry unless you working while on ferry.\n"
+        "question": "Where you must stop for railway crossing?",
+        "answer": "Five to 15 m from railway crossing.",
+        "options": [
+            "Two to 5 m from railway crossing. \n                             ",
+            "Five to 15 m from railway crossing.",
+            "10 meters from railway crossing.                            ",
+            "20 meters from railway crossing.                             "
+        ]
     },
     {
-        "question": "If you relay on a coffee to stay awake?",
-        "answer": "It is likely that you are suffering from fatigue."
+        "question": "Display this triangle device on a vehicle that moves slow then the speed of?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/14-20220929114633.jpg",
+        "answer": "40 km/h.",
+        "options": [
+            "25 km/h. \n                             ",
+            "40 km/h.",
+            "30 km/h                            "
+        ]
     },
     {
-        "question": "Which of the following is best indicator the brake is out of adjustment?",
-        "answer": "There is red band visible on the push rod."
-    },
-    {
-        "question": "When the driver releases the foot valve air pressure?",
-        "answer": "Exhausted through the assembly ports.\n"
-    },
-    {
-        "question": "If you are adjusting an automatic slack adjuster that has a square head adjusting bolt, you must rotate the adjusting bolt in which direction?",
-        "answer": "Counter clockwise."
-    },
-    {
-        "question": "What is the main cause of air loss of effective braking in an air brake?",
-        "answer": "Brakes out of adjustment.\n"
-    },
-    {
-        "question": "When your speed is slower than other traffic on a highway that has only one lane in each direction, you should? x",
-        "answer": "Keep to the right of your lane and let the traffic pass."
-    },
-    {
-        "question": "You must to a scale if you drive a vehicle that carries?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/6-20220928153639.jpg",
-        "answer": "5500 kg of the GVW."
+        "question": "If the fire occurs the combination unit?",
+        "answer": "Disconnect the tractor from the trailer and separate the units.",
+        "options": [
+            "Extinguish with the water \n                             ",
+            "Disconnect the tractor from the trailer and separate the units.",
+            "Put water on fire.                            "
+        ]
     },
     {
         "question": "This sign means ?",
         "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/1-20220928151239.jpg",
-        "answer": "Shows to permitted action."
+        "answer": "Shows to permitted action.",
+        "options": [
+            "Shows driving regulation. \n                             ",
+            "Shows to permitted action.",
+            "Shows warning regulation.                            "
+        ]
     },
     {
-        "question": "What is the maximum pressure available for the full brake application at any time?",
-        "answer": "Reservoir pressure."
+        "question": "The 20 lbs range between the compressor governer cut-in and cut-out serves to?",
+        "answer": "Cool compressorv.",
+        "options": [
+            "Reduce the condensation in the wet tank. \n                             ",
+            "Increase the condensation wet tank.                            ",
+            "Cool compressorv.",
+            "Give the system a pressure variation.                             "
+        ]
     },
     {
-        "question": "What does long stroke chamber have?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/21-20220929115204.jpg",
-        "answer": "Long stroke."
+        "question": "Which system is the oil filter part of?",
+        "answer": "Lubricating system",
+        "options": [
+            "air intake and exhaust system \n                             ",
+            "coolant system                            ",
+            "Lubricating system",
+            "fuel system                             "
+        ]
     },
     {
-        "question": "What are the dangerous of driving a vehicle with under inflated tires?",
-        "answer": "Hydroplaning will occur."
+        "question": "What is the maximum length of the load that can projected to the rear?",
+        "answer": "4 (Four) meters.",
+        "options": [
+            "2 (Two) meters. \n                             ",
+            "4 (Four) meters.",
+            "3 (Three) meters.                            ",
+            "1 (One) meter.                             "
+        ]
     },
     {
-        "question": "What does this sign means??",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/q-20220928150551.jpg",
-        "answer": "Narrow structure ahead."
+        "question": "Spring brake emergency release system will allow the driver to?",
+        "answer": "Slowly drive the disable vehicle to the mechanic shop.",
+        "options": [
+            "Operate the vehicle safely. \n                             ",
+            "Slowly drive the disable vehicle to the mechanic shop.",
+            "Stop the vehicle quickly.                            "
+        ]
     },
     {
-        "question": "When the lights you are waiting to turn green you should?",
-        "answer": "Check left, right and ahead watch for late comers."
+        "question": "When operating an emergency vehicle, what condition must you take into account before exceeding speed limit or driving through stop signal lights?",
+        "answer": "Sound a siren and display flashing red lights.",
+        "options": [
+            "Sound a siren and display flashing yellow lights. \n                             ",
+            "Sound a siren and display flashing red lights.",
+            "Sound a siren and flash a green lights.                            "
+        ]
     },
     {
-        "question": "What does this sign mean?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/l-20220928135130.jpg",
-        "answer": "Low clearance ahead."
+        "question": "When trailer is connected the air pressure present in control line?",
+        "answer": "Equal pressure applied by hand or foot valve.\n",
+        "options": [
+            "Equal pressure applied by hand or foot valve.\n",
+            "Equal pressure in control line.                            ",
+            "Equal pressure in control line.                            "
+        ]
     },
     {
-        "question": "This sign means?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/4-20220928153109.png",
-        "answer": "Shows driving regulation."
-    },
-    {
-        "question": "Metal or paint flakes around the nuts may indicate?",
-        "answer": "Wheel movement."
-    },
-    {
-        "question": "What is brake lag time?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/z-20220929142601.jpg",
-        "answer": "The time between when you press the brakes pedal to time when brakes begin to function."
+        "question": "Don’t park your vehicle near the railway crossing, within how many meters?",
+        "answer": "15 meters of railway track.",
+        "options": [
+            "meters of railway track. \n                             ",
+            "5 – 15 meters of rail.                            ",
+            "15 meters of railway track.",
+            "6 meters of railway track.                             "
+        ]
     },
     {
         "question": "Hand valve is used to protect?",
-        "answer": "Trailer brake.\n"
+        "answer": "Trailer brake.\n",
+        "options": [
+            "Trailer brake.\n",
+            "Tractor brake.                            ",
+            "Tractor trailer brake.                            "
+        ]
+    },
+    {
+        "question": "The total safe working load of all the tie-downs you use must:",
+        "answer": "Be at least 50% of the weight of your load.",
+        "options": [
+            "Be close to the weight of your load. \n                             ",
+            "Meet or exceed the weight of your load.                            ",
+            "Be at least 50% of the weight of your load.",
+            "Must greatly exceed the weight of your load.                             "
+        ]
+    },
+    {
+        "question": "As the driver of a commercial passenger vehicle, under which condition are you permitted to refuse to transport any passenger?",
+        "answer": "Person who is sick or intoxicated.\n",
+        "options": [
+            "Person who is sick or intoxicated.\n",
+            "Person who are talking loud.                            ",
+            "A small child.                            "
+        ]
+    },
+    {
+        "question": "When other drivers want to pass your vehicle you should?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/7-20220928155628.jpg",
+        "answer": "Never direct them to do so at any time. *",
+        "options": [
+            "Pull over and let them pass. \n                             ",
+            "Signal to let them pass.                            ",
+            "Speed up and give more road.                            ",
+            "Never direct them to do so at any time. *"
+        ]
+    },
+    {
+        "question": "The stopping distance is?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/123-20220929143744.png",
+        "answer": "The distance the vehicle travelled from the time a hazard is recognized until vehicle stops.",
+        "options": [
+            "The time air takes to travel through a properly maintained brake system. \n                             ",
+            "The distance the vehicle travelled from the time a hazard is recognized until vehicle stops.",
+            "The time the vehicle travel before it stops.                            "
+        ]
+    },
+    {
+        "question": "For the safety of your passengers if your vehicle moving you must not?",
+        "answer": "Collect fares.",
+        "options": [
+            "Use hand signals. \n                             ",
+            "Collect fares.",
+            "Braking hard..                            ",
+            "Flashing lights                             "
+        ]
+    },
+    {
+        "question": "Front wheel limting valve?",
+        "answer": "Reduce the front wheel braking.",
+        "options": [
+            "Increases the front wheel braking. \n                             ",
+            "Increases the rear wheel braking.                            ",
+            "Reduce the front wheel braking."
+        ]
+    },
+    {
+        "question": "How many pounds of pushrod force does a type 30 brake chamber produce with 100 pounds of air pressure in the system?",
+        "answer": "3000 pounds",
+        "options": [
+            "1000 pounds \n                             ",
+            "2000 pounds                            ",
+            "3000 pounds",
+            "4000 pounds                             "
+        ]
+    },
+    {
+        "question": "The safety valve will vent the excess air pressure exceed?",
+        "answer": "150 P.S.I",
+        "options": [
+            "200 P.S.I \n                             ",
+            "150 P.S.I",
+            "250 P.S.I                            "
+        ]
+    },
+    {
+        "question": "What is meant by term friction?",
+        "answer": "The force which resists the movement between the two surfaces in contact with each other.",
+        "options": [
+            "The factor that stops vehicle. \n                             ",
+            "The force which resists the movement between the two surfaces in contact with each other.",
+            "The factor that moves vehicle.                            "
+        ]
+    },
+    {
+        "question": "Average semi-trailer type truck has a central weight distribution point approximately?",
+        "answer": "Middle of the axel.",
+        "options": [
+            "Front of the axel. \n                             ",
+            "Middle of the axel.",
+            "Rear of the axel.                            "
+        ]
+    },
+    {
+        "question": "When driving the forward control bus and making a sarp right turn you should start your turn?",
+        "answer": "When the curve line on side street become visible through the front entrance.\n",
+        "options": [
+            "When the curve line on side street become visible through the front entrance.\n",
+            "When the front wheels the bus is over the center line of the street.                            ",
+            "When the back wheels of the bus is over center line.                            "
+        ]
+    },
+    {
+        "question": "Pre-trip inspection is required to the truck trailer towing a trailer that has licenced G.V.W greater than?",
+        "answer": "8200 kg.\n",
+        "options": [
+            "8200 kg.\n",
+            "5500 kg.                            ",
+            "8200 lbs.                            "
+        ]
+    },
+    {
+        "question": "What does this sign means?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/8-20220928155856.png",
+        "answer": "Road narrow ahead.\n",
+        "options": [
+            "Road narrow ahead.\n",
+            "Narrow structure ahead.                            ",
+            "Divided highway ends.                            "
+        ]
+    },
+    {
+        "question": "When the trailer is not connected?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/f-20220928131443.jpg",
+        "answer": "The trailer supply valve is in closed position.\n",
+        "options": [
+            "The trailer supply valve is in closed position.\n",
+            "The trailer supply valve is in open position.                            ",
+            "The tractor supply valve is closed position.                            ",
+            "The tractor supply valve in open position                             "
+        ]
     },
     {
         "question": "This yellow light means?",
         "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/e-20220929110142.jpg",
-        "answer": "Stop, until it is unsafe to do so.\n"
+        "answer": "Stop, until it is unsafe to do so.\n",
+        "options": [
+            "Stop, until it is unsafe to do so.\n",
+            "Stop and then continue only when it is safe.                            ",
+            "Stop and go if intersection is clear.                            ",
+            "Slow down and proceed with caution.                             "
+        ]
     },
     {
-        "question": "This warning signs means?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/h-20220928133057.jpg",
-        "answer": "Railway crossing ahead."
+        "question": "Where are safety valve installed?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/77-20220929121803.jpg",
+        "answer": "Main reservoir.\n",
+        "options": [
+            "Main reservoir.\n",
+            "Secondary reservoir.                            ",
+            "Primary reservoir.                            "
+        ]
     },
     {
-        "question": "Front wheel limting valve?",
-        "answer": "Reduce the front wheel braking."
+        "question": "In cold weather?",
+        "answer": "Add eather to diesel to prevent freezing.",
+        "options": [
+            "Warm the engine for 2-3 minutes. \n                             ",
+            "Add eather to diesel to prevent freezing.",
+            "Keep chains.                            "
+        ]
     },
     {
-        "question": "Try to avoid retarder?",
-        "answer": "On slippery roads."
+        "question": "Which of the following is best indicator the brake is out of adjustment?",
+        "answer": "There is red band visible on the push rod.",
+        "options": [
+            "When the brake chamber and push rod is at 60 degree. \n                             ",
+            "When the brakes are applied the angle between brake chamber and push rod is 90 degree.                            ",
+            "There is red band visible on the push rod."
+        ]
     },
     {
-        "question": "This sign means?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/9-20220928160011.jpg",
-        "answer": "Slow moving vehicle."
+        "question": "If you feel dizzy or drowsy due to carbon monoxide you should?",
+        "answer": "Stop your vehicle and get out for fresh air and wait until you are alert again.\n",
+        "options": [
+            "Stop your vehicle and get out for fresh air and wait until you are alert again.\n",
+            "Slow down and get some fresh air.                            ",
+            "Speed up and reach to the nearest stop.                            ",
+            "Open window and reduce your speed until you alert again.                             "
+        ]
     },
     {
-        "question": "Rust streaks on the rim?",
-        "answer": "May indicate loose lug nut or crack in the rim.\n"
-    },
-    {
-        "question": "When uncoupling make sure to?",
-        "answer": "Disconnect the airlines and electric cable."
-    },
-    {
-        "question": "When trailer is connected the air pressure present in control line?",
-        "answer": "Equal pressure applied by hand or foot valve.\n"
-    },
-    {
-        "question": "If the transmission is left in neutral too long and shifting is difficult you should?",
-        "answer": "Release the clutch and increase the engine speed to match road speed then try again."
-    },
-    {
-        "question": "When steering a large vehicle around a turn two factors to consider are?",
-        "answer": "a) Turning radius of the front wheels and the off track of the rear wheels.\n"
-    },
-    {
-        "question": "The purpose of engine retarder is?",
-        "answer": "To slow engine speed"
-    },
-    {
-        "question": "Compressor must be unloaded between what two pressure?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/1-20220929144231.jpg",
-        "answer": "105 P.S.I and 135 P.S.I"
-    },
-    {
-        "question": "At the night you should switch your high beam lights to low beam at least?",
-        "answer": "150 meters."
-    },
-    {
-        "question": "What is the main cause of brake fade art high temperature?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/2-20220929144402.jpg",
-        "answer": "Brake component overheating and no longer proper working."
-    },
-    {
-        "question": "Where you must stop for railway crossing?",
-        "answer": "Five to 15 m from railway crossing."
-    },
-    {
-        "question": "If you are travelling on the road that is covered with ice or snow you should?",
-        "answer": "Reduce your speed to suit road condition and put on chains if necessary."
+        "question": "This warning sign mean ?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/13-20220929113701.jpg",
+        "answer": "There is sharp curve ahead.\n",
+        "options": [
+            "There is sharp curve ahead.\n",
+            "Right turn at this intersection.                            ",
+            "Right turn ahead.                            "
+        ]
     },
     {
         "question": "Which of the following is NOT indicator of wildlife at night time?",
-        "answer": "Sound of the wildlife on the road.\n"
+        "answer": "Sound of the wildlife on the road.\n",
+        "options": [
+            "Sound of the wildlife on the road.\n",
+            "Reflection from eyes of wildlife.                            ",
+            "Sign board indicator                            "
+        ]
     },
     {
-        "question": "Which part connects the wheels to the rest of the vehicle and also supports the weight of the vehicle?",
-        "answer": "Axles"
+        "question": "This warning sign means",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/o-20220928143217.png",
+        "answer": "Steep hill ahead slow down.",
+        "options": [
+            "Slippery road. \n                             ",
+            "Truck is parked ahead.                            ",
+            "Steep hill ahead slow down."
+        ]
     },
     {
-        "question": "The main purpose of tractor protection valve is to?",
-        "answer": "Prevent the total loss of air from tractor if trailer brakes away."
+        "question": "Before downhill ?",
+        "answer": "Check all air leaks.\n",
+        "options": [
+            "Check all air leaks.\n",
+            "Check tire pressure.                            ",
+            "Drain all the reservoir pressure.                            "
+        ]
     },
     {
-        "question": "When you are coupling the tractor, trailer to check the trailer connection?",
-        "answer": "Fifth wheel has engaged the king pin and there is space or daylight between the fifth wheels and trailer apron."
+        "question": "Which of these is not part of an air brake chamber?",
+        "answer": "Two-way valve",
+        "options": [
+            "Return spring \n                             ",
+            "Pushrod                            ",
+            "Diaphragm                            ",
+            "Two-way valve"
+        ]
+    },
+    {
+        "question": "The lines of the trailer are connected by?",
+        "answer": "Glad hand couplers.",
+        "options": [
+            "Foot valve. \n                             ",
+            "Glad hand couplers.",
+            "Control and emergency lines.                            "
+        ]
+    },
+    {
+        "question": "This warning sign means?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/j-20220928133537.jpg",
+        "answer": "Pedestrian crosswalk ahead.",
+        "options": [
+            "Playground ahead. \n                             ",
+            "Pedestrian walking on road.                            ",
+            "Pedestrian crosswalk ahead."
+        ]
+    },
+    {
+        "question": "What will happen if the supply or emergency line (red) ruputres?",
+        "answer": "The trailer brake will dynamite immediately.",
+        "options": [
+            "The trailer will dynamite by foot brake applied. \n                             ",
+            "The trailer brake will dynamite immediately.",
+            "All air in the trailer will be lost.                            "
+        ]
     },
     {
         "question": "This signal with steady green arrow means?",
         "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/20-20220929114743.jpg",
-        "answer": "No turn permitted go straight only.\n"
+        "answer": "No turn permitted go straight only.\n",
+        "options": [
+            "No turn permitted go straight only.\n",
+            "Only buses can go in this lane.                            ",
+            "Pedestrian controlled light.                            "
+        ]
     },
     {
-        "question": "A pilot car must travel between but meters when escorting an oversize vehicle?",
-        "answer": "100 meters and 500 meters either behind or in front."
+        "question": "Where is air dryer unit installed?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/222222-20220929155041.jpg",
+        "answer": "Between the compressor and first reservoir.",
+        "options": [
+            "Between the compressor. \n                             ",
+            "Between the compressor and first reservoir.",
+            "Between the compressor and reservoir.                            "
+        ]
     },
     {
-        "question": "What is the maximum length of the load that can projected to the rear?",
-        "answer": "4 (Four) meters."
+        "question": "If you are travelling on the road that is covered with ice or snow you should ?",
+        "answer": "Reduce your speed to suit road condition and put on chains if necessary.",
+        "options": [
+            "Stop and put on the chains. \n                             ",
+            "Hold the steering wheel firmly.                            ",
+            "Reduce your speed to suit road condition and put on chains if necessary.",
+            "Use brakes so tight.                             "
+        ]
     },
     {
-        "question": "How much distance you should keep when behind the large truck?",
-        "answer": "3 sec.\n"
+        "question": "If you are adjusting an automatic slack adjuster that has a square head adjusting bolt, you must rotate the adjusting bolt in which direction?",
+        "answer": "Counter clockwise.",
+        "options": [
+            "Clockwise. \n                             ",
+            "Counter clockwise.",
+            "Right direction.                            ",
+            "Left direction.                             "
+        ]
     },
     {
-        "question": "What is one function of slack adjuster?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/1102-20220929131029.jpg",
-        "answer": "It acts as liver point."
+        "question": "What is the main function of the push rod?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/100-20220929124133.jpg",
+        "answer": "Check the brake adjustment.",
+        "options": [
+            "To adjust the brakes. \n                             ",
+            "Check the brake adjustment.",
+            "Tight brakes.                            "
+        ]
     },
     {
-        "question": "When passing a parked vehicle you can anticipate if the driver is about to pull in front of you?",
-        "answer": "Looking to see if the car front wheels turned out. *"
+        "question": "How much heat can be handled under hard braking?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/50-20220929120757.jpg",
+        "answer": "250 centigrate.",
+        "options": [
+            "425 centigrate. \n                             ",
+            "250 centigrate.",
+            "1000 centigrate.                            ",
+            "1100 centigrate.                             "
+        ]
     },
     {
-        "question": "Retarder provide?",
-        "answer": "To reduce the R.P.M"
+        "question": "How much air pressure should present in the tires?",
+        "answer": "According to the company manufacture",
+        "options": [
+            "According to the weight. \n                             ",
+            "According to the road conditions.                            ",
+            "According to tire size.                            ",
+            "According to the company manufacture"
+        ]
     },
     {
-        "question": "A trailer hand valve should always be used to?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/g-20220928131759.jpg",
-        "answer": "Stop at traffic lights."
+        "question": "What does this sign means??",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/q-20220928150551.jpg",
+        "answer": "Narrow structure ahead.",
+        "options": [
+            "A left lane ends ahead. \n                             ",
+            "A right lane ends ahead.                            ",
+            "Narrow structure ahead."
+        ]
     },
     {
-        "question": "A large vehicle has blind spots",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/icbc-blind-spot-20221005130956.png",
-        "answer": "Directly in front, behind and on either side of the vehicle."
+        "question": "What recharges the battery when it loses electricity?",
+        "answer": "alternators",
+        "options": [
+            "exhaust system. \n                             ",
+            "fifth wheel.                            ",
+            "alternators",
+            "cranking circuit                             "
+        ]
     },
     {
-        "question": "The safety valve will vent the excess air pressure exceed?",
-        "answer": "150 P.S.I"
+        "question": "We cannot use jack brake system?",
+        "answer": "Residential area.",
+        "options": [
+            "Roundabout. \n                             ",
+            "Residential area.",
+            "On slippery roads.                            ",
+            "On narrow roads.                             "
+        ]
     },
     {
-        "question": "When curving to the left keep the front wheels close to the?",
-        "answer": "Right edge of the lane you are travelling."
+        "question": "This sign means ?",
+        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/c-20220929105829.png",
+        "answer": "Recommended exit speed drive slower in poor conditions.",
+        "options": [
+            "Exit speed is 40 km/h. \n                             ",
+            "Recommended exit speed drive slower in poor conditions.",
+            "Maximum speed is 40 km/h.                            ",
+            "Drive 40 km/h                             "
+        ]
     },
     {
-        "question": "Spring brakes are most useful as?",
-        "answer": "A mechanical parking brakes."
+        "question": "What is the driver stopping time?",
+        "answer": "Reaction time + Brake lag time + braking time.",
+        "options": [
+            "Reaction time + Hazard time + Bracking time. \n                             ",
+            "The moment a hazard is recognized.                            ",
+            "Reaction time + Brake lag time + braking time."
+        ]
     },
     {
-        "question": "The maximum legal height of a commercial vehicle that will be operated on highway?",
-        "answer": "4.15 meters."
+        "question": "When steering a large vehicle around a turn two factors to consider are?",
+        "answer": "a) Turning radius of the front wheels and the off track of the rear wheels.\n",
+        "options": [
+            "a) Turning radius of the front wheels and the off track of the rear wheels.\n",
+            "The turning radius of the rear wheels and off track of the front wheels.                            ",
+            "The turning radius of the rear wheels and off-track steering wheels.                            "
+        ]
     },
     {
-        "question": "Which system is the oil filter part of?",
-        "answer": "Lubricating system"
+        "question": "The front wheel limiting valve?",
+        "answer": "Reduce the front brakes.",
+        "options": [
+            "Reduce the rear brakes. \n                             ",
+            "Reduce the front brakes.",
+            "Reduce the compounding brakes.                            "
+        ]
     },
     {
-        "question": "In which measurement will you measure the air present in the tank?",
-        "answer": "Pound per square inch and kilo pascal."
+        "question": "The main purpose of tractor protection valve is to?",
+        "answer": "Prevent the total loss of air from tractor if trailer brakes away.",
+        "options": [
+            "Apply the trailer brakes if trailer brakes away. \n                             ",
+            "Prevent the total loss of air from tractor if trailer brakes away.",
+            "Apply tractor brakes if tractor brakes away.                            ",
+            "To apply the brakes if the air is lost.                             "
+        ]
     },
     {
-        "question": "This warning sign means?",
-        "question_image": "https://examinerpro.s3.ap-northeast-1.amazonaws.com/queimages/2-20220928152518.png",
-        "answer": "Merging traffic ahead.\n"
+        "question": "When getting ready to back under a semi trailer you should?",
+        "answer": "Line up in a direct line in the front of the trailer.\n",
+        "options": [
+            "Line up in a direct line in the front of the trailer.\n",
+            "Back up slowly slowly to prevent damage.                            ",
+            "Line up in a direct line in the rear of trailer.                            "
+        ]
     }
 ]
