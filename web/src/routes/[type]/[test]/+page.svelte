@@ -2,6 +2,8 @@
     import { page } from "$app/stores";
     import Learn from "$lib/Learn.svelte";
     import Practice from "$lib/Practice.svelte";
+    import _ from "lodash";
+
     import {
         air_brake,
         class_five,
@@ -28,11 +30,11 @@
         "class 1 (semi-trailer truck)": class_one_semitruck,
     };
 
-    $: curTest = category_map[category];
+    $: curTest = _.shuffle(category_map[category]);
 </script>
 
 {#if testType === "learn"}
     <Learn questions={curTest} />
 {:else if testType === "practice"}
-    <Practice questions={curTest} />
+    <Practice questions={curTest} testName={category} />
 {/if}
