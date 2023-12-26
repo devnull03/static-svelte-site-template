@@ -1,10 +1,18 @@
 <script lang="ts">
+    import _ from "lodash";
+    import { onMount } from "svelte";
+
     export let questions: {
         question: string;
         answer: string;
         question_image?: string;
         options: string[];
     }[];
+
+    onMount(() => {
+        questions = _.shuffle(questions);
+    })
+
 </script>
 
 <div class="flex justify-center mt-10">
