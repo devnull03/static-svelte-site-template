@@ -32,7 +32,7 @@
 </script>
 
 {#if testType === "learn"}
-    <Learn bind:questions={curTest} />
+    <Learn questions={curTest} />
 {:else if testType === "practice"}
-    <Practice bind:questions={curTest} />
+    <Practice questions={curTest} />
 {/if}

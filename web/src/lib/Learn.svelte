@@ -15,7 +15,7 @@
 
 </script>
 
-<div class="flex justify-center mt-10">
+<div class="flex flex-col justify-evenly items-center mt-10">
     <div class="flex flex-col w-8/12 gap-10">
         {#each questions as question, i}
             <div class="flex flex-col justify-between">

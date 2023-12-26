@@ -1,7 +1,6 @@
 <script>
     import Footer from "$lib/Footer.svelte";
     import Header from "$lib/Header.svelte";
-    import Table from "$lib/table.svelte";
     import "../app.css";
 </script>
 
@@ -9,10 +8,10 @@
     <title>{import.meta.env.VITE_COMPANY_NAME}</title>
 </svelte:head>
 
-<div class="h-screen flex flex-col justify-between">
-    <Header />
-    <main class="my-16">
-        <slot />
-    </main>
-    <Footer />
+<Header />
+<div class="h-screen flex flex-col justify-between pt-20">
+    <slot />
+    <div>
+        <!-- <Footer /> -->
+    </div>
 </div>
