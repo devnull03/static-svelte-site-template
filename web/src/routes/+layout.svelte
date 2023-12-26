@@ -11,7 +11,7 @@
 
 <div class="h-screen flex flex-col justify-between">
     <Header />
-    <main class="h-full mt-16">
+    <main class="my-16">
         <slot />
     </main>
     <Footer />
