@@ -4,14 +4,14 @@
       name: "Home",
       href: "/",
     },
-    {
-      name: "My test",
-      href: "/about",
-    },
-    {
-      name: "Logout",
-      href: "/contact",
-    },
+    // {
+    //   name: "My test",
+    //   href: "/about",
+    // },
+    // {
+    //   name: "Logout",
+    //   href: "/contact",
+    // },
     
   ];
 
