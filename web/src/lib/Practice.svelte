@@ -58,6 +58,8 @@
         current_correct_option = answer_index;
     };
 
+    $: console.log(current_correct_option, current_selected_option);
+
     $: finalScore =
         (100 * score) / (questions_buffer.length + attempted_questions.length);
 </script>
@@ -77,7 +79,8 @@
             <div>
                 {#if questions_buffer[current_question_index]?.question_image}
                     <img
-                        src={questions_buffer[current_question_index]?.question_image}
+                        src={questions_buffer[current_question_index]
+                            ?.question_image}
                         alt=""
                         class="h-32 object-contain"
                     />
@@ -89,13 +92,11 @@
                     {#each questions_buffer[current_question_index]?.options as option, idx}
                         {#if !option.startsWith("-")}
                             <button
-                                class="flex flex-row text-left rounded-lg border hover:shadow-inner bg-white p-5 gap-4 transition-all duration-200"
-                                class:bg-green-400={current_correct_option !==
-                                    null && current_correct_option === idx}
-                                class:bg-red-400={current_correct_option !==
-                                    null &&
-                                    current_selected_option === idx &&
-                                    current_correct_option !== idx}
+                                class="flex flex-row text-left rounded-lg border hover:shadow-inner p-5 gap-4 transition-all duration-200"
+                                class:bg-green-400={current_correct_option ===
+                                    idx}
+                                class:bg-red-400={current_selected_option ===
+                                    idx && current_correct_option !== idx}
                                 on:click={() => computeScore(idx)}
                                 on:dblclick={() => {
                                     if (current_correct_option !== null)
@@ -174,12 +175,13 @@
             <button
                 class="border rounded-lg p-2 px-4 hover:shadow-inner bg-gray-100 text-sm"
                 on:click={async () => {
-                    attempted_questions = []
-                    questions_buffer = _.cloneDeep(questions)
-                    score = 0
-                    current_question_index = _.random(questions_buffer.length - 1)
-                }}
-                >Try again</button
+                    attempted_questions = [];
+                    questions_buffer = _.cloneDeep(questions);
+                    score = 0;
+                    current_question_index = _.random(
+                        questions_buffer.length - 1,
+                    );
+                }}>Try again</button
             >
             <hr class="w-1/2" />
 
@@ -228,7 +230,6 @@
                     </div>
                 </div>
             {/each}
-
         </div>
     {/if}
 </div>
