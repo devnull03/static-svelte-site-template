@@ -28,8 +28,8 @@
                 </div>
                 {#if question.question_image}
                     <div>
-                        <img
-                            src={question.question_image}
+                        <img 
+                            src="/question_images/{question.question_image}"
                             alt=""
                             class="h-32 object-contain"
                         />

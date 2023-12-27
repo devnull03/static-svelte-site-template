@@ -79,8 +79,9 @@
             <div>
                 {#if questions_buffer[current_question_index]?.question_image}
                     <img
-                        src={questions_buffer[current_question_index]
-                            ?.question_image}
+                        src="/question_images/{questions_buffer[
+                            current_question_index
+                        ]?.question_image}"
                         alt=""
                         class="h-32 object-contain"
                     />
@@ -201,7 +202,7 @@
                     <div>
                         {#if question.question_image}
                             <img
-                                src={question.question_image}
+                                src="/question_images/{question.question_image}"
                                 alt=""
                                 class="h-32 object-contain"
                             />
