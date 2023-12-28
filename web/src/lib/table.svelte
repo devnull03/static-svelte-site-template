@@ -7,6 +7,7 @@
     const pages = [
         "class1",
         "class5",
+        "class5-new",
         "air brake",
         "class 1 (semi-trailer truck)",
     ];

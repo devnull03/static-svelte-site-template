@@ -15,6 +15,7 @@
     type categories =
         | "class1"
         | "class5"
+        | "class5-new"
         | "air brake"
         | "class 1 (semi-trailer truck)";
 
@@ -25,7 +26,8 @@
 
     const category_map = {
         class1: class_one_new,
-        class5: class_five_new,
+        class5: class_five,
+        "class5-new": class_five_new,
         "air brake": air_brake,
         "class 1 (semi-trailer truck)": class_one_semitruck,
     };
