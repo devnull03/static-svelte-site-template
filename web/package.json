@@ -26,6 +26,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@candidosales/svelte-google-translate": "^0.0.15",
 		"lodash": "^4.17.21"
 	}
 }
