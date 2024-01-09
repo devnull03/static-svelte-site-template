@@ -42,8 +42,6 @@
 
         showMessage = true;
 
-        return;
-
         let res = await supabase.auth.signInWithOtp({
             email,
             options: {
