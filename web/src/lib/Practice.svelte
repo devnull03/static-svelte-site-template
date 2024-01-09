@@ -64,7 +64,7 @@
         (100 * score) / (questions_buffer.length + attempted_questions.length);
 </script>
 
-<div class="flex flex-col h-full items-center w-full">
+<div class="flex flex-col h-full items-center w-full mt-10">
     {#if current_question_index !== -1}
         <div class="flex flex-col justify-between gap-4 w-1/2">
             <div class="flex flex-row font-semibold gap-2">

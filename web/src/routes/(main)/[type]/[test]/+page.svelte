@@ -10,7 +10,7 @@
         class_five_new,
         class_one_new,
         class_one_semitruck,
-    } from "../../../utils/questions";
+    } from "../../../../utils/questions";
 
     type categories =
         | "class1"

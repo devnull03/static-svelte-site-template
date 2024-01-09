@@ -1,6 +1,12 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import { GoogleTranslate } from "@candidosales/svelte-google-translate";
+    import type { Session, SupabaseClient } from "@supabase/supabase-js";
+    import { goto } from "$app/navigation";
+
+    export let data: { supabase: SupabaseClient; session: Session | null };
+    let { supabase, session } = data;
+    $: ({ supabase, session } = data);
 
     const navLinks = [
         {
@@ -8,6 +14,11 @@
             href: "/",
         },
     ];
+
+    const handleSignOut = async () => {
+        let res = await supabase.auth.signOut();
+        goto("/auth");
+    };
 </script>
 
 <GoogleTranslate
@@ -35,7 +46,17 @@
                     {link.name}
                 </a>
             {/each}
+
+            <button
+                on:click={handleSignOut}
+                class="text-xs uppercase text-white hover:text-opacity-80 transition-colors duration-300 ease-in-out"
+                class:hidden={!session}
+            >
+                Sign out
+            </button>
+
             <div id="google-translate-element"></div>
+
         </div>
     </div>
 </nav>

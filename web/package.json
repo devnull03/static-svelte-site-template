@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite dev --port 3000",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -27,6 +27,8 @@
 	"type": "module",
 	"dependencies": {
 		"@candidosales/svelte-google-translate": "^0.0.15",
+		"@supabase/auth-helpers-sveltekit": "^0.10.7",
+		"@supabase/supabase-js": "^2.39.2",
 		"lodash": "^4.17.21"
 	}
 }
