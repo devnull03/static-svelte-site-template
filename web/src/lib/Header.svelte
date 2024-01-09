@@ -3,6 +3,7 @@
     import { GoogleTranslate } from "@candidosales/svelte-google-translate";
     import type { Session, SupabaseClient } from "@supabase/supabase-js";
     import { goto } from "$app/navigation";
+    import Loader from "./Loader.svelte";
 
     export let data: { supabase: SupabaseClient; session: Session | null };
     let { supabase, session } = data;
@@ -15,9 +16,15 @@
         },
     ];
 
+    let signoutLoading = false;
+
     const handleSignOut = async () => {
+        signoutLoading = true;
         let res = await supabase.auth.signOut();
-        goto("/auth");
+        setTimeout(() => {
+            signoutLoading = false;
+            goto("/auth");
+        }, 200);
     };
 </script>
 
@@ -47,16 +54,21 @@
                 </a>
             {/each}
 
-            <button
-                on:click={handleSignOut}
-                class="text-xs uppercase text-white hover:text-opacity-80 transition-colors duration-300 ease-in-out"
-                class:hidden={!session}
-            >
-                Sign out
-            </button>
+            {#if signoutLoading}
+                <span class="px-4 scale-75"> 
+                    <Loader />
+                </span>
+            {:else}
+                <button
+                    on:click={handleSignOut}
+                    class="text-xs uppercase text-white hover:text-opacity-80 transition-colors duration-300 ease-in-out"
+                    class:hidden={!session}
+                >
+                    Sign out
+                </button>
+            {/if}
 
             <div id="google-translate-element"></div>
-
         </div>
     </div>
 </nav>

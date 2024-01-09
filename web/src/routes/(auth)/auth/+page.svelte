@@ -56,21 +56,15 @@
         on:submit={signInWithEmail}
         class="bg-gray-100 flex flex-col gap-4 w-1/2 items-center"
     >
-        <h1 class="text-2xl">Form</h1>
+        <h1 class="text-2xl">Sign In</h1>
+
         <span>
             Email:
             <input id="email" name="email" bind:value={email} />
         </span>
-        <!-- <span>
-            Password:
-            <input
-                id="password"
-                type="password"
-                name="password"
-                bind:value={password}
-            />
-        </span> -->
+
         <button>Sign in</button>
+
     </form>
 
 </div>
